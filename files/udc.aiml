@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<category>
+<pattern>OI</pattern>
+<template>
+Olá! Sou a robô Amy Farrah Fowler, mas pode me chamar de Amy! Qual é seu nome?
+<image>https://i.pinimg.com/750x/d6/ab/2d/d6ab2d7a73b11447424eb0731f0529ce.jpg</image>
+</template>
+</category>
+<category>
+<pattern>MEU NOME É *</pattern>
+<template>
+Muito prazer
+<star/>
+!! Você é um sucateiro Pré-Robótico??
+</template>
+</category>
+<category>
+<pattern>^ SOU ^</pattern>
+<template>
+Nossa, que bom! Estou presa aqui no mundo virtual! Será que você poderia me ajudar a sair daqui?
+<image>https://i.pinimg.com/750x/d6/ab/2d/d6ab2d7a73b11447424eb0731f0529ce.jpg</image>
+</template>
+</category>
+<category>
+<pattern>NÃO SOU ^</pattern>
+<template>
+Puxa, será que você poderia achar um para mim? Estou presa aqui no mundo virtual! Só um sucateiro pré-robótico poderá me tirar daqui!!
+<image>https://i.pinimg.com/750x/d6/ab/2d/d6ab2d7a73b11447424eb0731f0529ce.jpg</image>
+</template>
+</category>
+<category>
+<pattern>^ NÃO POSSO ^</pattern>
+<template> Puxa, que pena... Peço para achar um sucateiro que possa me ajudar... :( </template>
+</category>
+<category>
+<pattern>^ POSSO ^</pattern>
+<template> Nossa, que bom! Para eu surgir aí basta você fazer para mim um corpo robótico de material reciclável! </template>
+</category>
+<category>
+<pattern>^ SIM ^</pattern>
+<template>
+<srai>^ POSSO ^</srai>
+</template>
+</category>
+<category>
+<pattern>^ FEITO ^</pattern>
+<template>
+Na foto, meu corpo é feito de caixinha de perfume, os meus braços e pernas são feitos de barbante e tampinhas! Mas eu posso adquirir formas de muitos outros materiais como embalagem de Shampoo, caixa de sapato, palito de sorvete, etc...
+<image>https://i.pinimg.com/750x/56/b8/0f/56b80fa2e526e6786ebc6151b3c0ed34.jpg</image>
+</template>
+</category>
+<category>
+<pattern># OLHOS #</pattern>
+<template>
+Nossa, muito importante você ter falado nisso! Meus olhos são feitos com lindos LEDs amarelos!!
+<image>https://i.pinimg.com/564x/24/be/b4/24beb49fb3db5aa91c5528907628cb2c.jpg</image>
+</template>
+</category>
+<category>
+<pattern>^ BOCA ^</pattern>
+<template> A minha boca é feita de E.V.A cor rosa ...mas você pode escolher a cor que quiser! 
+<image>https://i.pinimg.com/750x/98/48/55/98485551e3f415b9863ba2ffa9fea529.jpg</image>
+</template>
+</category>
+<category>
+<pattern># LEGAL #</pattern>
+<template>
+<random>
+<li>A Profa. Flavia vai explicar tudo certinho daqui a pouco!</li>
+</random>
+</template>
+</category>
+<category>
+<pattern>^ TCHAU ^</pattern>
+<template> Obrigado amigo!! Até logo!! </template>
+</category>
+<category>
+<pattern>^ ATÉ MAIS ^</pattern>
+<template>
+<srai>^ TCHAU ^</srai>
+</template>
+</category>
+<category>
+<pattern>*</pattern>
+<template> Desculpe, não entendi. Pode repetir de outra maneira?</template>
+</category>
+</aiml>
